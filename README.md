@@ -20,11 +20,14 @@
 ```
    vagrant up --provision
 ```
-4.  If you want to see machine UI, you can SSH into the machine.
+
+4. Go to browser andtype "15.15.15.4", see result.
+
+5.  If you want to see machine UI, you can SSH into the machine.
 ```
    vagrant ssh
 ```
-5. Logout machine.
+6. Logout machine.
 ```
    logout
 ```
