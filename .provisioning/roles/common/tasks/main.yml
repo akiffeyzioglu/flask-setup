@@ -1,0 +1,11 @@
+---
+
+- name: Install SSL
+  apt: 
+    name:
+        - bash
+        - openssl
+        - libssl-dev
+        - libssl-doc
+    update_cache: yes
+    state: latest
