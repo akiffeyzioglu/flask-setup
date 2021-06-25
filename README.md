@@ -1,32 +1,30 @@
-## Flask & Vagrant Local Development Environment
+# Flask & Vagrant Local Development Environment
 
-## Table of Contents
+## Requirements
 
-* [How to Use Python Virtual Environment](#how-to-use-python-virtual-environment)
+* [Vagrant](https://www.vagrantup.com/downloads)
 
-## How to use Python Virtual Environment
+* [VirtualBox](https://www.virtualbox.org/wiki/VirtualBox)
 
-Go to your development directory and run: 
+## How to use this environment
+
+1. Clone this repo. 
 ```
-pip install virtualenv
+   git clone https://github.com/akiffeyzioglu/flask-setup.git  
 ```
-Create virtual environment: 
+2. cd into it. 
 ```
-virtualenv venv
+  cd flask-setup
 ```
-For MacOS and Linux:
+3. Start Vagrant
 ```
-source venv/bin/activate
+   vagrant up --provision
 ```
-Windows:
+4.  If you want to see machine UI, you can SSH into the machine
 ```
-venv\Scripts\activate
+   vagrant ssh
 ```
-Install dependencies:
+5. Logout machine.
 ```
-pip install -r requirements.txt
-```
-Deactivate virtual environment:
-```
-deactivate
+   logout
 ```
