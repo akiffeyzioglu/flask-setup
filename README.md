@@ -21,7 +21,7 @@
    vagrant up --provision
 ```
 
-4. Go to browser andtype "15.15.15.4", see result.
+4. Go to browser and type "15.15.15.4", see result.
 
 5.  If you want to see machine UI, you can SSH into the machine.
 ```
