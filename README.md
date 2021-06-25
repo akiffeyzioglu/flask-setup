@@ -16,11 +16,11 @@
 ```
   cd flask-setup
 ```
-3. Start Vagrant
+3. Start Vagrant.
 ```
    vagrant up --provision
 ```
-4.  If you want to see machine UI, you can SSH into the machine
+4.  If you want to see machine UI, you can SSH into the machine.
 ```
    vagrant ssh
 ```
