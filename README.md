@@ -2,6 +2,8 @@
 
 ## Requirements
 
+* [Git](https://git-scm.com/downloads)
+
 * [Vagrant](https://www.vagrantup.com/downloads)
 
 * [VirtualBox](https://www.virtualbox.org/wiki/VirtualBox)
