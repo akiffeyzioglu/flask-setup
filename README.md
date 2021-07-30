@@ -33,3 +33,7 @@
 ```
    logout
 ```
+7. Destroy machine.
+```
+   vagrant destroy
+```
